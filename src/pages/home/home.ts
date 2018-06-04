@@ -15,7 +15,7 @@ export class HomePage {
       console.log(resp.coords.latitude);
       console.log(resp.coords.longitude);
       }).catch((error) => {
-        console.log('Error getting location', error);
+        console.log('Could not find location', error);
       });
   }
 
